@@ -118,17 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuProgressBar1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAp0AAAAOCAYAAABtuKf6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEKSURBVHhe7d0xSgNBGAXgHMMjWFp6BCtrL+EBvIWVN7H1
-        CrnB5ABGRAsbC30LP0wSBszugtX34GND5k3/WAjZiIiIiIj8a3a73V1rbZvnDwAAnGvakPGUzxc1LcdJ
-        6SWlj8PLAAAw0z678rYm5nFycB+fg0sAADBLduVbnpc1NXty0E7LAACwVOblc03NnlERAACWyuj8qqnZ
-        MyoCAMAaNTV7RiUAAFijpmbPqAQAAGvU1OzJl6+nJQAAWKq19l1Ts2f6ddGoDAAAS2Rfbmtq9uTgKgf7
-        0zIAAMyVXfme501NzePk4KEKw8sAAPCX2pOPNTHHSeF6ehV6eBEAAM6RHTn94dDgDedm8wsjWLQTzth3
-        ggAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAUFJREFUSEut

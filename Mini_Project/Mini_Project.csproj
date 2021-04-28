@@ -12,6 +12,8 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -38,139 +40,215 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.Dataviz.WinForms.2.1.5\lib\Bunifu.Licensing.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.Licensing.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuButton, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDropdown, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuFormDock, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuGauge, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuGroupBox, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuGroupBox.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuGroupBox.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuImageButton, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuLabel, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuPages, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuPanel, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuRating, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuRating.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuRating.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuSeparator, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuSeparator.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuSeparator.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuShadowPanel, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuShadowPanel.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuShadowPanel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuShapes, Version=4.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuShapes.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuShapes.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuSlider, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuSnackbar, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuSnackbar.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuSnackbar.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextBox, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuTextBox.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuToggleSwitch, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuToggleSwitch.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuToggleSwitch.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuToolTip, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTransition, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuUserControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.Deprecated, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.1\lib\Bunifu.UI.WinForms.Deprecated.dll</HintPath>
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.Deprecated.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ciloci.Flee, Version=0.9.26.0, Culture=neutral, PublicKeyToken=c8526a021ef298ed, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-CilociFlee.10.6.1\lib\net45\Ciloci.Flee.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GeoAPI, Version=1.7.4.0, Culture=neutral, PublicKeyToken=a1a0da7def465678, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-GeoAPI.10.6.0\lib\net45\GeoAPI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-MicrosoftSqlServerTypes.10.6.0\lib\net45\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NetTopologySuite, Version=1.14.0.0, Culture=neutral, PublicKeyToken=f580a05016ebada1, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-NetTopologySuite.10.6.0\lib\net45\NetTopologySuite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-NewtonsoftJson.10.6.0\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Npgsql, Version=3.0.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-Npgsql.10.6.0\lib\net45\Npgsql.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.32.3057.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-PDFsharp.10.6.0\lib\net20\PdfSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.32.3057.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-PDFsharp.10.6.0\lib\net20\PdfSharp.Charting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PowerCollections, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2573bf8a1bdddcd5, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-NetTopologySuite.10.6.0\lib\net45\PowerCollections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SkiaSharp, Version=1.68.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-SkiaSharp.10.6.0\lib\net45\SkiaSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Core.WinForms, Version=19.1451.0.57, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Core.WinForms.19.1.0.57\lib\net451\Syncfusion.Core.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Data.WinForms, Version=19.1451.0.57, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Data.WinForms.19.1.0.57\lib\net451\Syncfusion.Data.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.DataSource.WinForms, Version=19.1451.0.57, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.DataSource.WinForms.19.1.0.57\lib\net451\Syncfusion.DataSource.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.GridCommon.WinForms, Version=19.1451.0.57, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.GridCommon.WinForms.19.1.0.57\lib\net451\Syncfusion.GridCommon.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=19.1451.0.57, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Licensing.19.1.0.57\lib\net451\Syncfusion.Licensing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.WinForms, Version=19.1451.0.57, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.SfInput.WinForms.19.1.0.57\lib\net451\Syncfusion.SfInput.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.WinForms, Version=19.1451.0.57, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.SfListView.WinForms.19.1.0.57\lib\net451\Syncfusion.SfListView.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base, Version=19.1451.0.57, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Shared.Base.19.1.0.57\lib\net451\Syncfusion.Shared.Base.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.102.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\MapSuiteDependency-SQLiteCore.10.6.0\lib\net451\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -181,8 +259,214 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="ThinkGeo.Cloud.Client, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.Cloud.Client.10.6.3\lib\net45\ThinkGeo.Cloud.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.10.6.18\lib\net45\ThinkGeo.MapSuite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Drawing.PdfGeoCanvas, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Drawing.PdfGeoCanvas.10.6.2\lib\net45\ThinkGeo.MapSuite.Drawing.PdfGeoCanvas.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Adornments, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Adornments.10.6.3\lib\net45\ThinkGeo.MapSuite.Layers.Adornments.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Background, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Background.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.Background.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.CloudFile, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.CloudFile.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.CloudFile.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Delimited, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Delimited.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.Delimited.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Ecw, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Ecw.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.Ecw.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.FileGeoDatabase, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.FileGeoDatabase.10.6.3\lib\net45\ThinkGeo.MapSuite.Layers.FileGeoDatabase.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.GeoTiff, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.GeoTiff.10.6.4\lib\net45\ThinkGeo.MapSuite.Layers.GeoTiff.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.GoogleMaps, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.GoogleMaps.10.6.4\lib\net45\ThinkGeo.MapSuite.Layers.GoogleMaps.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Gpx, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Gpx.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.Gpx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Graticule, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Graticule.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.Graticule.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Grids, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Grids.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.Grids.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Group, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Group.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.Group.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Heat, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Heat.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.Heat.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.IsoLine, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.IsoLine.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.IsoLine.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Jpeg2000, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Jpeg2000.10.6.3\lib\net45\ThinkGeo.MapSuite.Layers.Jpeg2000.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Kml, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Kml.10.6.2\lib\net45\ThinkGeo.MapSuite.Layers.Kml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.MapShape, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.MapShape.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.MapShape.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.MrSid, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.MrSid.10.6.3\lib\net45\ThinkGeo.MapSuite.Layers.MrSid.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.MsSql, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.MsSql.10.6.3\lib\net45\ThinkGeo.MapSuite.Layers.MsSql.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.MultipleFeatureSource, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.MultipleFeatureSource.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.MultipleFeatureSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.NativeImage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.NativeImage.10.6.4\lib\net45\ThinkGeo.MapSuite.Layers.NativeImage.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.NauticalCharts, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.NauticalCharts.10.6.5\lib\net45\ThinkGeo.MapSuite.Layers.NauticalCharts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.OpenStreetMap, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.OpenStreetMap.10.6.7\lib\net45\ThinkGeo.MapSuite.Layers.OpenStreetMap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.PostgreSql, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.PostgreSql.10.6.4\lib\net45\ThinkGeo.MapSuite.Layers.PostgreSql.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Printers, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Printers.10.6.9\lib\net45\ThinkGeo.MapSuite.Layers.Printers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Restriction, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Restriction.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.Restriction.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.ShapeFile, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.ShapeFile.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.ShapeFile.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Sqlite, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Sqlite.10.6.2\lib\net45\ThinkGeo.MapSuite.Layers.Sqlite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Tab, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Tab.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.Tab.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.TiledWms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.TiledWms.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.TiledWms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.TinyGeo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.TinyGeo.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.TinyGeo.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.TobinBas, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.TobinBas.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.TobinBas.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Wfs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Wfs.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.Wfs.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.WkbFile, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.WkbFile.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.WkbFile.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Wms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Wms.10.6.4\lib\net45\ThinkGeo.MapSuite.Layers.Wms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.Wmts, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Wmts.10.6.11\lib\net45\ThinkGeo.MapSuite.Layers.Wmts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Layers.WorldMapKit, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.WorldMapKit.10.6.1\lib\net45\ThinkGeo.MapSuite.Layers.WorldMapKit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.ProductCenter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.ProductCenter.10.6.6\lib\net45\ThinkGeo.MapSuite.ProductCenter.exe</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Styles.ClusterPoint, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Styles.ClusterPoint.10.6.2\lib\net45\ThinkGeo.MapSuite.Styles.ClusterPoint.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Styles.Composite, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Styles.Composite.10.6.1\lib\net45\ThinkGeo.MapSuite.Styles.Composite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Styles.DotDensity, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Styles.DotDensity.10.6.1\lib\net45\ThinkGeo.MapSuite.Styles.DotDensity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Styles.Filter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Styles.Filter.10.6.1\lib\net45\ThinkGeo.MapSuite.Styles.Filter.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Styles.FleeBoolean, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Styles.FleeBoolean.10.6.1\lib\net45\ThinkGeo.MapSuite.Styles.FleeBoolean.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Styles.Gradient, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Styles.Gradient.10.6.1\lib\net45\ThinkGeo.MapSuite.Styles.Gradient.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Styles.IconValue, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Styles.IconValue.10.6.1\lib\net45\ThinkGeo.MapSuite.Styles.IconValue.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Styles.WellPoint, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Styles.WellPoint.10.6.1\lib\net45\ThinkGeo.MapSuite.Styles.WellPoint.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ThinkGeo.MapSuite.Styles.ZedGraph, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkGeo.MapSuite.Styles.ZedGraph.10.6.1\lib\net45\ThinkGeo.MapSuite.Styles.ZedGraph.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer_Accounts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,6 +493,15 @@
     <Compile Include="Staff_Accounts.Designer.cs">
       <DependentUpon>Staff_Accounts.cs</DependentUpon>
     </Compile>
+    <Compile Include="StartUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartUp.Designer.cs">
+      <DependentUpon>StartUp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customer_Accounts.resx">
       <DependentUpon>Customer_Accounts.cs</DependentUpon>
     </EmbeddedResource>
@@ -231,6 +524,10 @@
     <EmbeddedResource Include="Staff_Accounts.resx">
       <DependentUpon>Staff_Accounts.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StartUp.resx">
+      <DependentUpon>StartUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Mini_Project.csproj.vsspell" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -246,6 +543,39 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\MapSuiteDependency-EsriFileGeoDatabase.10.6.1\build\net45\MapSuiteDependency-EsriFileGeoDatabase.targets" Condition="Exists('..\packages\MapSuiteDependency-EsriFileGeoDatabase.10.6.1\build\net45\MapSuiteDependency-EsriFileGeoDatabase.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MapSuiteDependency-EsriFileGeoDatabase.10.6.1\build\net45\MapSuiteDependency-EsriFileGeoDatabase.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MapSuiteDependency-EsriFileGeoDatabase.10.6.1\build\net45\MapSuiteDependency-EsriFileGeoDatabase.targets'))" />
+    <Error Condition="!Exists('..\packages\MapSuiteDependency-GdalS57.10.6.1\build\net45\MapSuiteDependency-GdalS57.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MapSuiteDependency-GdalS57.10.6.1\build\net45\MapSuiteDependency-GdalS57.targets'))" />
+    <Error Condition="!Exists('..\packages\MapSuiteDependency-HexagonGeospatialEcw.10.6.1\build\net45\MapSuiteDependency-HexagonGeospatialEcw.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MapSuiteDependency-HexagonGeospatialEcw.10.6.1\build\net45\MapSuiteDependency-HexagonGeospatialEcw.targets'))" />
+    <Error Condition="!Exists('..\packages\MapSuiteDependency-LibGeoTiff.10.6.1\build\net45\MapSuiteDependency-LibGeoTiff.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MapSuiteDependency-LibGeoTiff.10.6.1\build\net45\MapSuiteDependency-LibGeoTiff.targets'))" />
+    <Error Condition="!Exists('..\packages\MapSuiteDependency-LizardTechMrSid.10.6.1\build\net45\MapSuiteDependency-LizardTechMrSid.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MapSuiteDependency-LizardTechMrSid.10.6.1\build\net45\MapSuiteDependency-LizardTechMrSid.targets'))" />
+    <Error Condition="!Exists('..\packages\MapSuiteDependency-SkiaSharp.10.6.0\build\net45\MapSuiteDependency-SkiaSharp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MapSuiteDependency-SkiaSharp.10.6.0\build\net45\MapSuiteDependency-SkiaSharp.targets'))" />
+    <Error Condition="!Exists('..\packages\MapSuiteDependency-SQLiteCore.10.6.0\build\net451\MapSuiteDependency-SQLiteCore.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MapSuiteDependency-SQLiteCore.10.6.0\build\net451\MapSuiteDependency-SQLiteCore.targets'))" />
+    <Error Condition="!Exists('..\packages\ThinkGeo.MapSuite.10.6.18\build\net45\ThinkGeo.MapSuite.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ThinkGeo.MapSuite.10.6.18\build\net45\ThinkGeo.MapSuite.targets'))" />
+    <Error Condition="!Exists('..\packages\ThinkGeo.MapSuite.Layers.Ecw.10.6.1\build\net45\ThinkGeo.MapSuite.Layers.Ecw.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ThinkGeo.MapSuite.Layers.Ecw.10.6.1\build\net45\ThinkGeo.MapSuite.Layers.Ecw.targets'))" />
+    <Error Condition="!Exists('..\packages\ThinkGeo.MapSuite.Layers.FileGeoDatabase.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.FileGeoDatabase.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ThinkGeo.MapSuite.Layers.FileGeoDatabase.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.FileGeoDatabase.targets'))" />
+    <Error Condition="!Exists('..\packages\ThinkGeo.MapSuite.Layers.GeoTiff.10.6.4\build\net45\ThinkGeo.MapSuite.Layers.GeoTiff.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ThinkGeo.MapSuite.Layers.GeoTiff.10.6.4\build\net45\ThinkGeo.MapSuite.Layers.GeoTiff.targets'))" />
+    <Error Condition="!Exists('..\packages\ThinkGeo.MapSuite.Layers.Jpeg2000.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.Jpeg2000.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ThinkGeo.MapSuite.Layers.Jpeg2000.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.Jpeg2000.targets'))" />
+    <Error Condition="!Exists('..\packages\ThinkGeo.MapSuite.Layers.MrSid.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.MrSid.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ThinkGeo.MapSuite.Layers.MrSid.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.MrSid.targets'))" />
+    <Error Condition="!Exists('..\packages\ThinkGeo.MapSuite.Layers.NauticalCharts.10.6.5\build\net45\ThinkGeo.MapSuite.Layers.NauticalCharts.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ThinkGeo.MapSuite.Layers.NauticalCharts.10.6.5\build\net45\ThinkGeo.MapSuite.Layers.NauticalCharts.targets'))" />
+  </Target>
+  <Import Project="..\packages\MapSuiteDependency-GdalS57.10.6.1\build\net45\MapSuiteDependency-GdalS57.targets" Condition="Exists('..\packages\MapSuiteDependency-GdalS57.10.6.1\build\net45\MapSuiteDependency-GdalS57.targets')" />
+  <Import Project="..\packages\MapSuiteDependency-HexagonGeospatialEcw.10.6.1\build\net45\MapSuiteDependency-HexagonGeospatialEcw.targets" Condition="Exists('..\packages\MapSuiteDependency-HexagonGeospatialEcw.10.6.1\build\net45\MapSuiteDependency-HexagonGeospatialEcw.targets')" />
+  <Import Project="..\packages\MapSuiteDependency-LibGeoTiff.10.6.1\build\net45\MapSuiteDependency-LibGeoTiff.targets" Condition="Exists('..\packages\MapSuiteDependency-LibGeoTiff.10.6.1\build\net45\MapSuiteDependency-LibGeoTiff.targets')" />
+  <Import Project="..\packages\MapSuiteDependency-LizardTechMrSid.10.6.1\build\net45\MapSuiteDependency-LizardTechMrSid.targets" Condition="Exists('..\packages\MapSuiteDependency-LizardTechMrSid.10.6.1\build\net45\MapSuiteDependency-LizardTechMrSid.targets')" />
+  <Import Project="..\packages\MapSuiteDependency-SkiaSharp.10.6.0\build\net45\MapSuiteDependency-SkiaSharp.targets" Condition="Exists('..\packages\MapSuiteDependency-SkiaSharp.10.6.0\build\net45\MapSuiteDependency-SkiaSharp.targets')" />
+  <Import Project="..\packages\MapSuiteDependency-SQLiteCore.10.6.0\build\net451\MapSuiteDependency-SQLiteCore.targets" Condition="Exists('..\packages\MapSuiteDependency-SQLiteCore.10.6.0\build\net451\MapSuiteDependency-SQLiteCore.targets')" />
+  <Import Project="..\packages\ThinkGeo.MapSuite.10.6.18\build\net45\ThinkGeo.MapSuite.targets" Condition="Exists('..\packages\ThinkGeo.MapSuite.10.6.18\build\net45\ThinkGeo.MapSuite.targets')" />
+  <Import Project="..\packages\ThinkGeo.MapSuite.Layers.Ecw.10.6.1\build\net45\ThinkGeo.MapSuite.Layers.Ecw.targets" Condition="Exists('..\packages\ThinkGeo.MapSuite.Layers.Ecw.10.6.1\build\net45\ThinkGeo.MapSuite.Layers.Ecw.targets')" />
+  <Import Project="..\packages\ThinkGeo.MapSuite.Layers.FileGeoDatabase.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.FileGeoDatabase.targets" Condition="Exists('..\packages\ThinkGeo.MapSuite.Layers.FileGeoDatabase.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.FileGeoDatabase.targets')" />
+  <Import Project="..\packages\ThinkGeo.MapSuite.Layers.GeoTiff.10.6.4\build\net45\ThinkGeo.MapSuite.Layers.GeoTiff.targets" Condition="Exists('..\packages\ThinkGeo.MapSuite.Layers.GeoTiff.10.6.4\build\net45\ThinkGeo.MapSuite.Layers.GeoTiff.targets')" />
+  <Import Project="..\packages\ThinkGeo.MapSuite.Layers.Jpeg2000.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.Jpeg2000.targets" Condition="Exists('..\packages\ThinkGeo.MapSuite.Layers.Jpeg2000.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.Jpeg2000.targets')" />
+  <Import Project="..\packages\ThinkGeo.MapSuite.Layers.MrSid.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.MrSid.targets" Condition="Exists('..\packages\ThinkGeo.MapSuite.Layers.MrSid.10.6.3\build\net45\ThinkGeo.MapSuite.Layers.MrSid.targets')" />
+  <Import Project="..\packages\ThinkGeo.MapSuite.Layers.NauticalCharts.10.6.5\build\net45\ThinkGeo.MapSuite.Layers.NauticalCharts.targets" Condition="Exists('..\packages\ThinkGeo.MapSuite.Layers.NauticalCharts.10.6.5\build\net45\ThinkGeo.MapSuite.Layers.NauticalCharts.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

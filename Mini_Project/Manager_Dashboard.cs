@@ -32,7 +32,9 @@ namespace Mini_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Staff_Accounts sa = new Staff_Accounts();
+            this.Hide();
+            sa.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -58,6 +60,32 @@ namespace Mini_Project
         private void button6_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Login l = new Login();
+            this.Hide();
+            l.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Login lg = new Login();
+            this.Hide();
+            lg.Show();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            About ab = new About();
+            this.Hide();
+            ab.Show();
         }
     }
 }

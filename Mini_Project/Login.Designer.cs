@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.panel8 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -45,10 +47,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
-            this.bunifuProgressBar1 = new Bunifu.UI.WinForms.BunifuProgressBar();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -64,7 +66,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.Controls.Add(this.bunifuProgressBar1);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.progressBar1);
             this.panel1.Controls.Add(this.panel8);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.button1);
@@ -77,8 +81,28 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.Location = new System.Drawing.Point(402, 119);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(715, 458);
+            this.panel1.Size = new System.Drawing.Size(715, 512);
             this.panel1.TabIndex = 0;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.Location = new System.Drawing.Point(282, 348);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(54, 19);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "label5";
+            this.label5.Visible = false;
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(21, 479);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(677, 11);
+            this.progressBar1.TabIndex = 15;
+            this.progressBar1.Visible = false;
             // 
             // panel8
             // 
@@ -184,7 +208,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(282, 372);
+            this.label2.Location = new System.Drawing.Point(296, 440);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(142, 19);
             this.label2.TabIndex = 6;
@@ -260,37 +284,15 @@
             this.panel5.Size = new System.Drawing.Size(38, 61);
             this.panel5.TabIndex = 4;
             // 
-            // directorySearcher1
+            // panel3
             // 
-            this.directorySearcher1.ClientTimeout = System.TimeSpan.Parse("-00:00:01");
-            this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
-            this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
-            // 
-            // bunifuProgressBar1
-            // 
-            this.bunifuProgressBar1.AllowAnimations = false;
-            this.bunifuProgressBar1.Animation = 0;
-            this.bunifuProgressBar1.AnimationSpeed = 220;
-            this.bunifuProgressBar1.AnimationStep = 10;
-            this.bunifuProgressBar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(223)))), ((int)(((byte)(223)))));
-            this.bunifuProgressBar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuProgressBar1.BackgroundImage")));
-            this.bunifuProgressBar1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(223)))), ((int)(((byte)(223)))));
-            this.bunifuProgressBar1.BorderRadius = 9;
-            this.bunifuProgressBar1.BorderThickness = 1;
-            this.bunifuProgressBar1.Location = new System.Drawing.Point(21, 414);
-            this.bunifuProgressBar1.Maximum = 100;
-            this.bunifuProgressBar1.MaximumValue = 100;
-            this.bunifuProgressBar1.Minimum = 0;
-            this.bunifuProgressBar1.MinimumValue = 0;
-            this.bunifuProgressBar1.Name = "bunifuProgressBar1";
-            this.bunifuProgressBar1.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            this.bunifuProgressBar1.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(223)))), ((int)(((byte)(223)))));
-            this.bunifuProgressBar1.ProgressColorLeft = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bunifuProgressBar1.ProgressColorRight = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bunifuProgressBar1.Size = new System.Drawing.Size(669, 14);
-            this.bunifuProgressBar1.TabIndex = 15;
-            this.bunifuProgressBar1.Value = 0;
-            this.bunifuProgressBar1.ValueByTransition = 0;
+            this.panel3.BackColor = System.Drawing.Color.MediumOrchid;
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(38, 61);
+            this.panel3.TabIndex = 2;
             // 
             // panel4
             // 
@@ -301,15 +303,24 @@
             this.panel4.Size = new System.Drawing.Size(38, 61);
             this.panel4.TabIndex = 3;
             // 
-            // panel3
+            // directorySearcher1
             // 
-            this.panel3.BackColor = System.Drawing.Color.MediumOrchid;
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(38, 61);
-            this.panel3.TabIndex = 2;
+            this.directorySearcher1.ClientTimeout = System.TimeSpan.Parse("-00:00:01");
+            this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
+            this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(294, 385);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(155, 38);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "Clear Details";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Login
             // 
@@ -324,6 +335,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -359,9 +371,11 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.DirectoryServices.DirectorySearcher directorySearcher1;
-        private Bunifu.UI.WinForms.BunifuProgressBar bunifuProgressBar1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button2;
     }
 }
 
