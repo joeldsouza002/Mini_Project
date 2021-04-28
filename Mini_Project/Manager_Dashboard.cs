@@ -87,5 +87,12 @@ namespace Mini_Project
             this.Hide();
             ab.Show();
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Customer_Accounts ca = new Customer_Accounts();
+            this.Hide();
+            ca.Show();
+        }
     }
 }

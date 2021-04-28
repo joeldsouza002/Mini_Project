@@ -48,7 +48,7 @@ namespace Mini_Project
                 con.Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "insert into Staff values('" + textBox4.Text + "', '" + textBox5.Text + "', 'Manager', '" + textBox6.Text + "')";
+                cmd.CommandText = "insert into Staff values('" + textBox4.Text + "', '" + textBox5.Text + "', 'Manager', '" + textBox6.Text + "', '"+ comboBox2.Text +"')";
                 cmd.ExecuteNonQuery();
                 con.Close();
                 MessageBox.Show("Manager Added Successfully");
@@ -72,7 +72,7 @@ namespace Mini_Project
                 con.Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "insert into Staff values('" + textBox1.Text + "', '" + textBox2.Text + "', 'Manager', '" + textBox3.Text + "')";
+                cmd.CommandText = "insert into Staff values('" + textBox1.Text + "', '" + textBox2.Text + "', 'Manager', '" + textBox3.Text + "', '"+ comboBox1.Text +"')";
                 cmd.ExecuteNonQuery();
                 con.Close();
                 MessageBox.Show("Cashier Added Successfully");
@@ -97,6 +97,110 @@ namespace Mini_Project
             msg = "To Add User Enter all Details and Click on Add \n\nTo Update User Details Enter User ID and Details to be Updated and then Click on Update Details";
             msg = msg + "\n\nTo Delete any User Enter User ID and Click on Delete User \n\nTo Search User Enter User ID and Click on Search User to Search any User";
             MessageBox.Show(msg);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "update Staff set Working_Day = '"+ comboBox1.Text +"' where UserId = '" + textBox1.Text + "'";
+                cmd.ExecuteNonQuery();
+                con.Close();
+                display();
+                MessageBox.Show("Record Successfully Updated");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "update Staff set Working_Day = '" + comboBox2.Text + "' where UserId = '" + textBox4.Text + "'";
+                cmd.ExecuteNonQuery();
+                con.Close();
+                display();
+                MessageBox.Show("Record Successfully Updated");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "delete from Staff where UserId = '" + textBox4.Text + "'";
+                cmd.ExecuteNonQuery();
+                con.Close();
+                display();
+                MessageBox.Show("Record Deleted successfully");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "delete from Staff where UserId = '" + textBox1.Text + "'";
+                cmd.ExecuteNonQuery();
+                con.Close();
+                display();
+                MessageBox.Show("Record Deleted successfully");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select * from Staff where User_Name = '" + textBox2.Text + "'";
+            cmd.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+            con.Close();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select * from Staff where User_Name='" + textBox5.Text + "'";
+            cmd.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+            con.Close();
         }
     }
 }

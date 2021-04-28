@@ -72,5 +72,12 @@ namespace Mini_Project
             textBox3.Text = "";
             textBox3.Text = "User Id";
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Forgot_password fp = new Forgot_password();
+            this.Hide();
+            fp.Show();
+        }
     }
 }

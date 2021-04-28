@@ -473,6 +473,12 @@
     <Compile Include="Customer_Accounts.Designer.cs">
       <DependentUpon>Customer_Accounts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forgot_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forgot_password.Designer.cs">
+      <DependentUpon>Forgot_password.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -504,6 +510,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Customer_Accounts.resx">
       <DependentUpon>Customer_Accounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forgot_password.resx">
+      <DependentUpon>Forgot_password.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
