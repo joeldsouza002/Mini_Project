@@ -31,5 +31,12 @@ namespace Mini_Project
             this.Hide();
             db.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Manager_Dashboard db = new Manager_Dashboard();
+            this.Hide();
+            db.Show();
+        }
     }
 }

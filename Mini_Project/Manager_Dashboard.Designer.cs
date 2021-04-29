@@ -46,6 +46,11 @@
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.billGeneratorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.managePaymentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -73,14 +78,9 @@
             this.panel12 = new System.Windows.Forms.Panel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.button8 = new System.Windows.Forms.Button();
-            this.billGeneratorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.managePaymentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.button9 = new System.Windows.Forms.Button();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel6.SuspendLayout();
             this.panel8.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -194,17 +194,17 @@
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(63, 6);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(63, 6);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(63, 6);
             // 
             // editToolStripMenuItem
             // 
@@ -212,23 +212,23 @@
             this.toolStripSeparator3,
             this.toolStripSeparator4});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(220, 31);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(204, 29);
             this.editToolStripMenuItem.Text = "Manage Customers";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(63, 6);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(63, 6);
             // 
             // toolsToolStripMenuItem
             // 
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(187, 31);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(173, 29);
             this.toolsToolStripMenuItem.Text = "Check Inventory";
             // 
             // helpToolStripMenuItem
@@ -236,13 +236,44 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripSeparator5});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(218, 31);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(202, 29);
             this.helpToolStripMenuItem.Text = "Check Transections";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(63, 6);
+            // 
+            // billGeneratorToolStripMenuItem
+            // 
+            this.billGeneratorToolStripMenuItem.Name = "billGeneratorToolStripMenuItem";
+            this.billGeneratorToolStripMenuItem.Size = new System.Drawing.Size(149, 29);
+            this.billGeneratorToolStripMenuItem.Text = "Bill Generator";
+            // 
+            // managePaymentToolStripMenuItem
+            // 
+            this.managePaymentToolStripMenuItem.Name = "managePaymentToolStripMenuItem";
+            this.managePaymentToolStripMenuItem.Size = new System.Drawing.Size(187, 29);
+            this.managePaymentToolStripMenuItem.Text = "Manage Payment";
+            // 
+            // logoutToolStripMenuItem
+            // 
+            this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(89, 29);
+            this.logoutToolStripMenuItem.Text = "Logout";
+            // 
+            // closeToolStripMenuItem
+            // 
+            this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(74, 29);
+            this.closeToolStripMenuItem.Text = "Close";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(80, 29);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // panel1
             // 
@@ -341,6 +372,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Check Inventory";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // panel4
             // 
@@ -373,6 +405,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "Bill Generator";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // panel5
             // 
@@ -405,6 +438,7 @@
             this.button6.TabIndex = 5;
             this.button6.Text = "Manage Payment";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // panel10
             // 
@@ -437,6 +471,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "Check Transections";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // label1
             // 
@@ -532,37 +567,6 @@
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
-            // billGeneratorToolStripMenuItem
-            // 
-            this.billGeneratorToolStripMenuItem.Name = "billGeneratorToolStripMenuItem";
-            this.billGeneratorToolStripMenuItem.Size = new System.Drawing.Size(163, 31);
-            this.billGeneratorToolStripMenuItem.Text = "Bill Generator";
-            // 
-            // managePaymentToolStripMenuItem
-            // 
-            this.managePaymentToolStripMenuItem.Name = "managePaymentToolStripMenuItem";
-            this.managePaymentToolStripMenuItem.Size = new System.Drawing.Size(202, 31);
-            this.managePaymentToolStripMenuItem.Text = "Manage Payment";
-            // 
-            // logoutToolStripMenuItem
-            // 
-            this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(95, 31);
-            this.logoutToolStripMenuItem.Text = "Logout";
-            // 
-            // closeToolStripMenuItem
-            // 
-            this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(78, 31);
-            this.closeToolStripMenuItem.Text = "Close";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(86, 31);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.Transparent;
@@ -573,17 +577,6 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(199, 52);
             this.panel13.TabIndex = 36;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(39, 38);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 34;
-            this.pictureBox9.TabStop = false;
             // 
             // button9
             // 
@@ -596,6 +589,17 @@
             this.button9.Text = "Back";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(39, 38);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 34;
+            this.pictureBox9.TabStop = false;
             // 
             // Manager_Dashboard
             // 

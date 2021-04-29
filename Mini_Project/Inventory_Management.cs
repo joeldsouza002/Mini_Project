@@ -48,5 +48,12 @@ namespace Mini_Project
         {
             display();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Manager_Dashboard md = new Manager_Dashboard();
+            this.Hide();
+            md.Show();
+        }
     }
 }

@@ -94,5 +94,33 @@ namespace Mini_Project
             this.Hide();
             ca.Show();
         }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            Inventory_Management im = new Inventory_Management();
+            this.Hide();
+            im.Show();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Transection_Management tm = new Transection_Management();
+            this.Hide();
+            tm.Show();
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            Bill_Generation bg = new Bill_Generation();
+            this.Hide();
+            bg.Show();
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            Payment_Management pm = new Payment_Management();
+            this.Hide();
+            pm.Show();
+        }
     }
 }
