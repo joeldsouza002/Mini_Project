@@ -72,7 +72,7 @@ namespace Mini_Project
                 con.Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "insert into Staff values('" + textBox1.Text + "', '" + textBox2.Text + "', 'Manager', '" + textBox3.Text + "', '"+ comboBox1.Text +"')";
+                cmd.CommandText = "insert into Staff values('" + textBox1.Text + "', '" + textBox2.Text + "', 'Cashier', '" + textBox3.Text + "', '"+ comboBox1.Text +"')";
                 cmd.ExecuteNonQuery();
                 con.Close();
                 MessageBox.Show("Cashier Added Successfully");
