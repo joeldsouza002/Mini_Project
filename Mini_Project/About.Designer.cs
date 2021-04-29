@@ -124,7 +124,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1496, 795);
+            this.ClientSize = new System.Drawing.Size(1496, 685);
             this.Controls.Add(this.panel13);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
