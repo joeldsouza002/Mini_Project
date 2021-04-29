@@ -467,6 +467,12 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bill_Generation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_Generation.Designer.cs">
+      <DependentUpon>Bill_Generation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer_Accounts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -479,6 +485,12 @@
     <Compile Include="Forgot_password.Designer.cs">
       <DependentUpon>Forgot_password.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inventory_Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory_Management.Designer.cs">
+      <DependentUpon>Inventory_Management.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -490,6 +502,12 @@
     </Compile>
     <Compile Include="Manager_Dashboard.Designer.cs">
       <DependentUpon>Manager_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment_Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment_Management.Designer.cs">
+      <DependentUpon>Payment_Management.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -504,6 +522,12 @@
     </Compile>
     <Compile Include="StartUp.Designer.cs">
       <DependentUpon>StartUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transection_Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transection_Management.Designer.cs">
+      <DependentUpon>Transection_Management.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
