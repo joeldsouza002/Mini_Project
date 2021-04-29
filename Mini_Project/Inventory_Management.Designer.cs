@@ -71,7 +71,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.Location = new System.Drawing.Point(419, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1059, 658);
+            this.panel1.Size = new System.Drawing.Size(1059, 675);
             this.panel1.TabIndex = 9;
             // 
             // dataGridView1
@@ -222,7 +222,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.Desktop;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridView2.Location = new System.Drawing.Point(19, 372);
+            this.dataGridView2.Location = new System.Drawing.Point(19, 387);
             this.dataGridView2.Name = "dataGridView2";
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
@@ -236,7 +236,7 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
             this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(1017, 271);
+            this.dataGridView2.Size = new System.Drawing.Size(1017, 273);
             this.dataGridView2.TabIndex = 20;
             // 
             // label2
@@ -258,7 +258,7 @@
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(517, 342);
+            this.label6.Location = new System.Drawing.Point(514, 357);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(96, 27);
             this.label6.TabIndex = 22;

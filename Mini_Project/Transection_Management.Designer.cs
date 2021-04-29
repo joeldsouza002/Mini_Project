@@ -146,11 +146,11 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(286, 9);
+            this.label1.Location = new System.Drawing.Point(384, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(548, 44);
+            this.label1.Size = new System.Drawing.Size(324, 44);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Supermarket Daily Transections";
+            this.label1.Text = "Daily Transections";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel5
