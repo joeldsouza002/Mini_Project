@@ -23,5 +23,10 @@ namespace Mini_Project
             this.Hide();
             md.Show();
         }
+
+        private void Transection_Management_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

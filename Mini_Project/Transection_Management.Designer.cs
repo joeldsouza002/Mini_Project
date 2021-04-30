@@ -235,6 +235,7 @@
             this.Name = "Transection_Management";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Transection_Management";
+            this.Load += new System.EventHandler(this.Transection_Management_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
