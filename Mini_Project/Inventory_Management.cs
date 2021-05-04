@@ -137,7 +137,7 @@ namespace Mini_Project
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
-            dataGridView1.DataSource = dt;
+            dataGridView2.DataSource = dt;
             con.Close();
         }
 
@@ -167,7 +167,7 @@ namespace Mini_Project
                 con.Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "update Product set Product_Price = '" + textBox6.Text + "', Product_Quantity = '"+ textBox7.Text +"' where Product_Id = '" + textBox3.Text + "'";
+                cmd.CommandText = "update Product set Category_Id = '" + textBox4.Text + "', Product_Price = '" + textBox6.Text + "', Product_Quantity = '"+ textBox7.Text +"' where Product_Id = '" + textBox3.Text + "'";
                 cmd.ExecuteNonQuery();
                 con.Close();
                 display2();
