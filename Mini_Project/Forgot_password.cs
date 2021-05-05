@@ -21,19 +21,30 @@ namespace Mini_Project
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\joeld\OneDrive\Documents\Visual Studio 2015\Projects\Mini_Project\Supermarket_Management.mdf;Integrated Security=True;Connect Timeout=30");
         private void button1_Click(object sender, EventArgs e)
         {
-            try
+            con.Open();
+            string query = "select * from Staff where UserId = '" + textBox3.Text.Trim() + "'";
+            SqlDataAdapter sda = new SqlDataAdapter(query, con);
+            DataTable dtbl = new DataTable();
+            sda.Fill(dtbl);
+            if (dtbl.Rows.Count == 1)
             {
-                con.Open();
-                SqlCommand cmd = con.CreateCommand();
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "update Staff set Password ='" + textBox2.Text + "' where UserId = '" + textBox3.Text + "'";
-                cmd.ExecuteNonQuery();
-                con.Close();
-                MessageBox.Show("Password Successfully Updated");
+                try
+                {
+                    SqlCommand cmd = con.CreateCommand();
+                    cmd.CommandType = CommandType.Text;
+                    cmd.CommandText = "update Staff set Password ='" + textBox2.Text + "' where UserId = '" + textBox3.Text + "'";
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+                    MessageBox.Show("Password Successfully Updated");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show("Error: " + ex.Message);
+                MessageBox.Show("No Account Found With That User ID, Please Contact The Manager!");
             }
         }
 

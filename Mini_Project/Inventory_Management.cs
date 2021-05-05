@@ -197,5 +197,15 @@ namespace Mini_Project
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            string msg = "";
+            msg = "CATEGORY\n\nTo Add Category Enter all Details and Click on Add \n";
+            msg = msg + "\n\nTo Delete any Category Enter Category ID and Click on Delete\nTo Search Category Enter Category ID and Click on Search Category\n\n";
+            msg = msg + "PRODUCT\n\nTo Add Product Enter all Details and Click on Add \nTo Udate Product Enter Product ID and Updated Details and click on Update\n";
+            msg = msg + "To Delete any Product Enter Product ID and Click on Delete\nTo Search Product Enter Product ID and Click on Search Product\n";
+            MessageBox.Show(msg);
+        }
     }
 }

@@ -39,7 +39,7 @@ namespace Mini_Project
                 SqlDataAdapter da2 = new SqlDataAdapter(cmd);
                 da2.Fill(dt2);
                 label18.Visible = true;
-                label18.Text = "Total Purchase Amount: = Rs " + dt2.Rows[0][0].ToString() + "/-";
+                label18.Text = "Total Purchase Amount: = Rs " + dt2.Rows[0][0].ToString() + " /- ";
                 con.Close();
             }
             catch (Exception ex)

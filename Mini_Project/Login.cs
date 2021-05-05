@@ -39,14 +39,17 @@ namespace Mini_Project
                 {
                     if (radioButton1.Checked == true)
                     {
-                        MessageBox.Show("Successfully Logged In!");
+                        MessageBox.Show("Successfully Logged In as Manager!");
                         this.Hide();
                         Manager_Dashboard m = new Manager_Dashboard();
                         m.Show();
                     }
                     else if (radioButton2.Checked == true)
                     {
-
+                        MessageBox.Show("Successfully Logged In as Cashier!");
+                        this.Hide();
+                        Bill_Generation bg = new Bill_Generation();
+                        bg.Show();
                     }
                     else
                     {

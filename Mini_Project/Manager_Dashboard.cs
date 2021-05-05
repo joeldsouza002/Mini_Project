@@ -37,6 +37,7 @@ namespace Mini_Project
             sa.Show();
         }
 
+        /*
         private void button2_Click(object sender, EventArgs e)
         {
             
@@ -61,6 +62,7 @@ namespace Mini_Project
         {
             
         }
+        */
 
         private void button7_Click(object sender, EventArgs e)
         {
@@ -121,6 +123,60 @@ namespace Mini_Project
             Payment_Management pm = new Payment_Management();
             this.Hide();
             pm.Show();
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Staff_Accounts sa = new Staff_Accounts();
+            this.Hide();
+            sa.Show();
+        }
+
+        private void editToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Customer_Accounts ca = new Customer_Accounts();
+            this.Hide();
+            ca.Show();
+        }
+
+        private void toolsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Inventory_Management im = new Inventory_Management();
+            this.Hide();
+            im.Show();
+        }
+
+        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Transection_Management tm = new Transection_Management();
+            this.Hide();
+            tm.Show();
+        }
+
+        private void billGeneratorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Bill_Generation bg = new Bill_Generation();
+            this.Hide();
+            bg.Show();
+        }
+
+        private void managePaymentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Payment_Management pm = new Payment_Management();
+            this.Hide();
+            pm.Show();
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Login lg = new Login();
+            this.Hide();
+            lg.Show();
+        }
+
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
