@@ -23,5 +23,19 @@ namespace Mini_Project
             this.Hide();
             md.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Payment_Management pm = new Payment_Management();
+            this.Hide();
+            pm.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Customer_Accounts ca = new Customer_Accounts();
+            this.Hide();
+            ca.Show();
+        }
     }
 }
