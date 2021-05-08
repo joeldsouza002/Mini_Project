@@ -18,6 +18,7 @@ namespace Mini_Project
             InitializeComponent();
         }
 
+        public static string user;
         private void button1_Click(object sender, EventArgs e)
         {
             progressBar1.Visible = true;
@@ -39,6 +40,7 @@ namespace Mini_Project
                 {
                     if (radioButton1.Checked == true)
                     {
+                        user = "Manager";
                         MessageBox.Show("Successfully Logged In as Manager!");
                         this.Hide();
                         Manager_Dashboard m = new Manager_Dashboard();
@@ -46,6 +48,7 @@ namespace Mini_Project
                     }
                     else if (radioButton2.Checked == true)
                     {
+                        user = "Cashier";
                         MessageBox.Show("Successfully Logged In as Cashier!");
                         this.Hide();
                         Bill_Generation bg = new Bill_Generation();
@@ -81,6 +84,11 @@ namespace Mini_Project
             Forgot_password fp = new Forgot_password();
             this.Hide();
             fp.Show();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+           
         }
     }
 }

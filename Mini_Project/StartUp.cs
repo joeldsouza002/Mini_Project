@@ -38,5 +38,18 @@ namespace Mini_Project
         {
 
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToLongTimeString();
+            timer1.Start();
+        }
+
+        private void StartUp_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+            label1.Text = DateTime.Now.ToLongTimeString();
+            label3.Text = DateTime.Now.ToLongDateString();
+        }
     }
 }

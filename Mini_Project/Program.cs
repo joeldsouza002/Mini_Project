@@ -16,7 +16,7 @@ namespace Mini_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Bill_Generation());
+            Application.Run(new StartUp());
         }
     }
 }
