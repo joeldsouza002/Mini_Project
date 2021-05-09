@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Mini_Project
 {
@@ -16,6 +17,8 @@ namespace Mini_Project
         {
             InitializeComponent();
         }
+
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Joel Dsouza\Source\Repos\joeldsouza002\Mini_Project\Supermarket_Management.mdf;Integrated Security=True;Connect Timeout=30");
 
         private void button9_Click(object sender, EventArgs e)
         {
@@ -31,6 +34,11 @@ namespace Mini_Project
                 this.Hide();
                 bg.Show();
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

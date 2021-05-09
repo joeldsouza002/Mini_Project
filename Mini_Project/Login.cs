@@ -29,7 +29,7 @@ namespace Mini_Project
                 progressBar1.Value = i;
                 System.Threading.Thread.Sleep(50);
             }
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\joeld\OneDrive\Documents\Visual Studio 2015\Projects\Mini_Project\Supermarket_Management.mdf;Integrated Security=True;Connect Timeout=30");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Joel Dsouza\Source\Repos\joeldsouza002\Mini_Project\Supermarket_Management.mdf;Integrated Security=True;Connect Timeout=30");
             try
             {
                 string query = "select * from Staff where UserId = '" + textBox3.Text.Trim() + "' and Password = '" + textBox2.Text.Trim() + "'";
