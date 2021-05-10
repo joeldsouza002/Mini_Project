@@ -47,7 +47,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1491, 298);
+            this.panel1.Size = new System.Drawing.Size(1491, 344);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -55,7 +55,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1491, 295);
+            this.pictureBox1.Size = new System.Drawing.Size(1491, 341);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -74,7 +74,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(568, 438);
+            this.button1.Location = new System.Drawing.Point(567, 476);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(386, 193);
             this.button1.TabIndex = 1;
@@ -97,7 +97,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(672, 329);
+            this.label1.Location = new System.Drawing.Point(690, 363);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 36);
             this.label1.TabIndex = 16;
@@ -109,7 +109,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(616, 382);
+            this.label3.Location = new System.Drawing.Point(631, 424);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 31);
             this.label3.TabIndex = 17;
