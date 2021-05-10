@@ -110,7 +110,6 @@
             this.button9.TabIndex = 35;
             this.button9.Text = "Back";
             this.button9.UseVisualStyleBackColor = true;
-            //this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // pictureBox9
             // 
@@ -173,6 +172,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "About";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "About";
             this.Load += new System.EventHandler(this.About_Load);
             this.panel13.ResumeLayout(false);

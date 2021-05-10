@@ -51,5 +51,12 @@ namespace Mini_Project
             label1.Text = DateTime.Now.ToLongTimeString();
             label3.Text = DateTime.Now.ToLongDateString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            About ab = new About();
+            this.Hide();
+            ab.Show();
+        }
     }
 }
