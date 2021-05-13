@@ -117,10 +117,6 @@ namespace Mini_Project
             label10.Text = DateTime.Now.ToLongDateString();
 
             display1();
-            string query = "delete from Bill";
-            SqlDataAdapter sda = new SqlDataAdapter(query, con);
-            DataTable dtbl = new DataTable();
-            sda.Fill(dtbl);
             display2();
 
         }
@@ -223,6 +219,40 @@ namespace Mini_Project
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Calculator.Calculator c = new Calculator.Calculator();
+            this.Hide();
+            c.Show();
+        }
+
+        Bitmap bitmap;
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            int height = dataGridView2.Height;
+            dataGridView1.Height = dataGridView2.RowCount * dataGridView2.RowTemplate.Height * 2;
+            bitmap = new Bitmap(dataGridView2.Width, dataGridView2.Height);
+            dataGridView2.DrawToBitmap(bitmap, new Rectangle(0, 0, dataGridView2.Width, dataGridView2.Height));
+            printPreviewDialog1.PrintPreviewControl.Zoom = 1;
+            printPreviewDialog1.ShowDialog();
+            dataGridView2.Height = height;
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawImage(bitmap, 0, 0);
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            string query = "Delete from Bill";
+            SqlDataAdapter sda = new SqlDataAdapter(query, con);
+            DataTable dtbl = new DataTable();
+            sda.Fill(dtbl);
+            display2();
         }
     }
 }
