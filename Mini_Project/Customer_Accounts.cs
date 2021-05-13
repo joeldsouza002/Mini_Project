@@ -43,9 +43,18 @@ namespace Mini_Project
 
         private void button9_Click(object sender, EventArgs e)
         {
-            Manager_Dashboard md = new Manager_Dashboard();
-            this.Hide();
-            md.Show();
+            if (Login.user == "Manager")
+            {
+                Manager_Dashboard md = new Manager_Dashboard();
+                this.Hide();
+                md.Show();
+            }
+            else if (Login.user == "Cashier")
+            {
+                Payment_Management pm = new Payment_Management();
+                this.Hide();
+                pm.Show();
+            }
         }
 
         private void button10_Click(object sender, EventArgs e)

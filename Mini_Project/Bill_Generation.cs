@@ -133,10 +133,9 @@ namespace Mini_Project
                 DataTable dt2 = new DataTable();
                 SqlDataAdapter da2 = new SqlDataAdapter(cmd);
                 da2.Fill(dt2);
-                label18.Visible = true;
                 label2.Visible = true;
-                label2.Text = "Total Amount: = Rs ";
-                label18.Text = dt2.Rows[0][0].ToString() + " /- ";
+                label2.Text = "Total Amount: Rs ";
+                textBox3.Text = " "+dt2.Rows[0][0].ToString() + " /- ";
                 con.Close();
             }
             catch (Exception ex)
