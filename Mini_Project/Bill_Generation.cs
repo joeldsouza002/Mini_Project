@@ -135,7 +135,7 @@ namespace Mini_Project
                 da2.Fill(dt2);
                 label2.Visible = true;
                 label2.Text = "Total Amount: Rs ";
-                textBox3.Text = " "+dt2.Rows[0][0].ToString() + " /- ";
+                textBox3.Text = dt2.Rows[0][0].ToString();
                 con.Close();
             }
             catch (Exception ex)
