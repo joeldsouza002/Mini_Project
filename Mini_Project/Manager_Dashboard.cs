@@ -74,7 +74,7 @@ namespace Mini_Project
 
         private void button8_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Environment.Exit(1);
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -257,6 +257,11 @@ namespace Mini_Project
         private void eBayToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Process.Start("https://www.ebay.com/");
+        }
+
+        private void gMailToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://mail.google.com/");
         }
     }
 }

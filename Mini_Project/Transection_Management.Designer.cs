@@ -60,7 +60,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -77,7 +76,6 @@
             this.label17 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
@@ -102,6 +100,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label19);
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.label11);
@@ -184,7 +183,6 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -215,7 +213,7 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
             this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(934, 267);
+            this.dataGridView2.Size = new System.Drawing.Size(932, 265);
             this.dataGridView2.TabIndex = 20;
             // 
             // dataGridView1
@@ -230,7 +228,6 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -261,7 +258,7 @@
             dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.Black;
             this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(934, 245);
+            this.dataGridView1.Size = new System.Drawing.Size(932, 243);
             this.dataGridView1.TabIndex = 19;
             // 
             // label4
@@ -293,7 +290,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(976, 68);
+            this.panel2.Size = new System.Drawing.Size(974, 68);
             this.panel2.TabIndex = 0;
             // 
             // label1
@@ -313,7 +310,7 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Location = new System.Drawing.Point(938, 0);
+            this.panel5.Location = new System.Drawing.Point(936, 0);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(38, 68);
             this.panel5.TabIndex = 4;
@@ -362,6 +359,7 @@
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button9.Location = new System.Drawing.Point(35, 3);
@@ -388,10 +386,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.groupBox1.Controls.Add(this.textBox4);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.textBox3);
@@ -400,7 +397,7 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(20, 59);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(462, 267);
@@ -410,9 +407,9 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(200, 147);
+            this.textBox4.Location = new System.Drawing.Point(281, 147);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(257, 30);
+            this.textBox4.Size = new System.Drawing.Size(176, 30);
             this.textBox4.TabIndex = 30;
             // 
             // label10
@@ -420,58 +417,45 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label10.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(1, 147);
+            this.label10.Location = new System.Drawing.Point(6, 144);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(174, 23);
+            this.label10.Size = new System.Drawing.Size(199, 25);
             this.label10.TabIndex = 29;
             this.label10.Text = "Transection Amount";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(12, 231);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(434, 23);
-            this.label7.TabIndex = 27;
-            this.label7.Text = "Enter Transection Date And ID to Search Transection";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(200, 39);
+            this.textBox1.Location = new System.Drawing.Point(281, 39);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(257, 30);
+            this.textBox1.Size = new System.Drawing.Size(176, 30);
             this.textBox1.TabIndex = 19;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(199, 75);
+            this.textBox2.Location = new System.Drawing.Point(281, 75);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(257, 30);
+            this.textBox2.Size = new System.Drawing.Size(175, 30);
             this.textBox2.TabIndex = 20;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(200, 111);
+            this.textBox3.Location = new System.Drawing.Point(281, 111);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(257, 30);
+            this.textBox3.Size = new System.Drawing.Size(176, 30);
             this.textBox3.TabIndex = 21;
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(254, 197);
+            this.button3.Location = new System.Drawing.Point(245, 197);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(192, 31);
+            this.button3.Size = new System.Drawing.Size(201, 43);
             this.button3.TabIndex = 9;
             this.button3.Text = "Search Transection";
             this.button3.UseVisualStyleBackColor = false;
@@ -480,11 +464,12 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(16, 197);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 31);
+            this.button1.Size = new System.Drawing.Size(189, 43);
             this.button1.TabIndex = 7;
             this.button1.Text = "Add Transection";
             this.button1.UseVisualStyleBackColor = false;
@@ -495,11 +480,11 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(12, 39);
+            this.label5.Location = new System.Drawing.Point(6, 38);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(127, 23);
+            this.label5.Size = new System.Drawing.Size(148, 27);
             this.label5.TabIndex = 23;
             this.label5.Text = "Transection ID";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -509,11 +494,11 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(12, 75);
+            this.label6.Location = new System.Drawing.Point(6, 75);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(147, 23);
+            this.label6.Size = new System.Drawing.Size(171, 27);
             this.label6.TabIndex = 24;
             this.label6.Text = "Transection Date";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -523,11 +508,11 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(12, 111);
+            this.label8.Location = new System.Drawing.Point(6, 111);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(149, 23);
+            this.label8.Size = new System.Drawing.Size(173, 27);
             this.label8.TabIndex = 26;
             this.label8.Text = "Transection Type";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -538,9 +523,9 @@
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel6.Controls.Add(this.pictureBox4);
             this.panel6.Controls.Add(this.button2);
-            this.panel6.Location = new System.Drawing.Point(296, 652);
+            this.panel6.Location = new System.Drawing.Point(289, 652);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(186, 43);
+            this.panel6.Size = new System.Drawing.Size(193, 43);
             this.panel6.TabIndex = 38;
             // 
             // pictureBox4
@@ -557,9 +542,10 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(35, 3);
+            this.button2.Location = new System.Drawing.Point(41, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(144, 33);
             this.button2.TabIndex = 33;
@@ -569,12 +555,11 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.groupBox2.Controls.Add(this.textBox9);
             this.groupBox2.Controls.Add(this.label17);
             this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.textBox6);
             this.groupBox2.Controls.Add(this.textBox7);
             this.groupBox2.Controls.Add(this.textBox8);
@@ -583,7 +568,7 @@
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.label16);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(20, 344);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(462, 302);
@@ -593,9 +578,9 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(199, 183);
+            this.textBox9.Location = new System.Drawing.Point(281, 183);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(257, 30);
+            this.textBox9.Size = new System.Drawing.Size(175, 30);
             this.textBox9.TabIndex = 31;
             // 
             // label17
@@ -603,20 +588,20 @@
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label17.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label17.Location = new System.Drawing.Point(1, 183);
+            this.label17.Location = new System.Drawing.Point(6, 183);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(174, 23);
+            this.label17.Size = new System.Drawing.Size(199, 25);
             this.label17.TabIndex = 31;
             this.label17.Text = "Transection Amount";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(200, 39);
+            this.textBox5.Location = new System.Drawing.Point(281, 39);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(257, 30);
+            this.textBox5.Size = new System.Drawing.Size(176, 30);
             this.textBox5.TabIndex = 30;
             // 
             // label12
@@ -624,58 +609,45 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label12.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(12, 147);
+            this.label12.Location = new System.Drawing.Point(6, 147);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(109, 23);
+            this.label12.Size = new System.Drawing.Size(129, 27);
             this.label12.TabIndex = 29;
             this.label12.Text = "Customer Id";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label13.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label13.Location = new System.Drawing.Point(12, 266);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(434, 23);
-            this.label13.TabIndex = 27;
-            this.label13.Text = "Enter Transection Date And ID to Search Transection";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(200, 75);
+            this.textBox6.Location = new System.Drawing.Point(281, 75);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(257, 30);
+            this.textBox6.Size = new System.Drawing.Size(176, 30);
             this.textBox6.TabIndex = 19;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(199, 111);
+            this.textBox7.Location = new System.Drawing.Point(281, 111);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(257, 30);
+            this.textBox7.Size = new System.Drawing.Size(175, 30);
             this.textBox7.TabIndex = 20;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(200, 147);
+            this.textBox8.Location = new System.Drawing.Point(281, 147);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(257, 30);
+            this.textBox8.Size = new System.Drawing.Size(176, 30);
             this.textBox8.TabIndex = 21;
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button4.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.Location = new System.Drawing.Point(254, 232);
+            this.button4.Location = new System.Drawing.Point(245, 232);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(192, 31);
+            this.button4.Size = new System.Drawing.Size(201, 44);
             this.button4.TabIndex = 9;
             this.button4.Text = "Search Transection";
             this.button4.UseVisualStyleBackColor = false;
@@ -684,11 +656,12 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button5.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button5.Location = new System.Drawing.Point(16, 232);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(170, 31);
+            this.button5.Size = new System.Drawing.Size(189, 44);
             this.button5.TabIndex = 7;
             this.button5.Text = "Add Transection";
             this.button5.UseVisualStyleBackColor = false;
@@ -699,11 +672,11 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(12, 39);
+            this.label14.Location = new System.Drawing.Point(6, 39);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(127, 23);
+            this.label14.Size = new System.Drawing.Size(148, 27);
             this.label14.TabIndex = 23;
             this.label14.Text = "Transection ID";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -713,11 +686,11 @@
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label15.Location = new System.Drawing.Point(12, 75);
+            this.label15.Location = new System.Drawing.Point(6, 75);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(147, 23);
+            this.label15.Size = new System.Drawing.Size(171, 27);
             this.label15.TabIndex = 24;
             this.label15.Text = "Transection Date";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -727,11 +700,11 @@
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label16.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label16.Location = new System.Drawing.Point(12, 111);
+            this.label16.Location = new System.Drawing.Point(6, 111);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(142, 23);
+            this.label16.Size = new System.Drawing.Size(167, 27);
             this.label16.TabIndex = 26;
             this.label16.Text = "Customer Name";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -792,7 +765,6 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
@@ -811,7 +783,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;

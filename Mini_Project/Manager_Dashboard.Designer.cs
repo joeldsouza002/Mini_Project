@@ -77,9 +77,6 @@
             this.panel12 = new System.Windows.Forms.Panel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.button8 = new System.Windows.Forms.Button();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
@@ -93,10 +90,11 @@
             this.snapdealToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.myntraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sheinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.weatherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pharToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bigBasketToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eBayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.weatherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gMailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel6.SuspendLayout();
             this.panel8.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -116,8 +114,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -211,17 +207,17 @@
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(63, 6);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(63, 6);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(63, 6);
             // 
             // editToolStripMenuItem
             // 
@@ -236,12 +232,12 @@
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(63, 6);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(63, 6);
             // 
             // toolsToolStripMenuItem
             // 
@@ -305,6 +301,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(233, 3);
             this.pictureBox2.Name = "pictureBox2";
@@ -315,14 +312,16 @@
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(224, 120);
             this.button1.TabIndex = 0;
             this.button1.Text = "Manage Users";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
@@ -338,6 +337,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(233, 3);
             this.pictureBox1.Name = "pictureBox1";
@@ -348,14 +348,16 @@
             // 
             // button2
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(3, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(224, 120);
             this.button2.TabIndex = 1;
             this.button2.Text = "Manage Customers";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // panel3
@@ -371,6 +373,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(233, 3);
             this.pictureBox3.Name = "pictureBox3";
@@ -381,14 +384,16 @@
             // 
             // button3
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(3, 3);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(224, 120);
             this.button3.TabIndex = 2;
             this.button3.Text = "Check Inventory";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // panel4
@@ -404,6 +409,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(233, 3);
             this.pictureBox5.Name = "pictureBox5";
@@ -414,14 +420,16 @@
             // 
             // button5
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Black;
             this.button5.Location = new System.Drawing.Point(3, 3);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(224, 120);
             this.button5.TabIndex = 4;
             this.button5.Text = "Bill Generator";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // panel5
@@ -437,6 +445,7 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(233, 3);
             this.pictureBox6.Name = "pictureBox6";
@@ -447,14 +456,16 @@
             // 
             // button6
             // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Black;
             this.button6.Location = new System.Drawing.Point(3, 3);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(224, 120);
             this.button6.TabIndex = 5;
             this.button6.Text = "Manage Payment";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // panel10
@@ -470,6 +481,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(233, 3);
             this.pictureBox4.Name = "pictureBox4";
@@ -480,14 +492,16 @@
             // 
             // button4
             // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Calisto MT", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(3, 3);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(224, 120);
             this.button4.TabIndex = 3;
             this.button4.Text = "Check Transections";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // label1
@@ -541,14 +555,16 @@
             // 
             // button7
             // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.Black;
             this.button7.Location = new System.Drawing.Point(3, 3);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(142, 43);
             this.button7.TabIndex = 1;
             this.button7.Text = "Logout";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // panel12
@@ -574,49 +590,17 @@
             // 
             // button8
             // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.Black;
             this.button8.Location = new System.Drawing.Point(3, 3);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(142, 40);
             this.button8.TabIndex = 1;
             this.button8.Text = "Close";
-            this.button8.UseVisualStyleBackColor = true;
+            this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // panel13
-            // 
-            this.panel13.BackColor = System.Drawing.Color.Transparent;
-            this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel13.Controls.Add(this.button9);
-            this.panel13.Controls.Add(this.pictureBox9);
-            this.panel13.Location = new System.Drawing.Point(669, 684);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(199, 52);
-            this.panel13.TabIndex = 36;
-            // 
-            // button9
-            // 
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button9.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(48, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(142, 40);
-            this.button9.TabIndex = 35;
-            this.button9.Text = "Back";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(39, 38);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 34;
-            this.pictureBox9.TabStop = false;
             // 
             // menuStrip2
             // 
@@ -634,10 +618,11 @@
             this.calculatorToolStripMenuItem,
             this.dailyNewsToolStripMenuItem,
             this.purchaseProductsToolStripMenuItem,
-            this.weatherToolStripMenuItem});
+            this.weatherToolStripMenuItem,
+            this.gMailToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(2, 120);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1134, 35);
+            this.menuStrip2.Size = new System.Drawing.Size(1108, 35);
             this.menuStrip2.TabIndex = 37;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -738,13 +723,6 @@
             this.sheinToolStripMenuItem.Text = "First Cry";
             this.sheinToolStripMenuItem.Click += new System.EventHandler(this.sheinToolStripMenuItem_Click);
             // 
-            // weatherToolStripMenuItem
-            // 
-            this.weatherToolStripMenuItem.Name = "weatherToolStripMenuItem";
-            this.weatherToolStripMenuItem.Size = new System.Drawing.Size(104, 31);
-            this.weatherToolStripMenuItem.Text = "Weather";
-            this.weatherToolStripMenuItem.Click += new System.EventHandler(this.weatherToolStripMenuItem_Click);
-            // 
             // pharToolStripMenuItem
             // 
             this.pharToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
@@ -769,6 +747,20 @@
             this.eBayToolStripMenuItem.Text = "EBay";
             this.eBayToolStripMenuItem.Click += new System.EventHandler(this.eBayToolStripMenuItem_Click);
             // 
+            // weatherToolStripMenuItem
+            // 
+            this.weatherToolStripMenuItem.Name = "weatherToolStripMenuItem";
+            this.weatherToolStripMenuItem.Size = new System.Drawing.Size(104, 31);
+            this.weatherToolStripMenuItem.Text = "Weather";
+            this.weatherToolStripMenuItem.Click += new System.EventHandler(this.weatherToolStripMenuItem_Click);
+            // 
+            // gMailToolStripMenuItem
+            // 
+            this.gMailToolStripMenuItem.Name = "gMailToolStripMenuItem";
+            this.gMailToolStripMenuItem.Size = new System.Drawing.Size(89, 31);
+            this.gMailToolStripMenuItem.Text = "G-Mail";
+            this.gMailToolStripMenuItem.Click += new System.EventHandler(this.gMailToolStripMenuItem_Click);
+            // 
             // Manager_Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -778,7 +770,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1488, 743);
             this.Controls.Add(this.menuStrip2);
-            this.Controls.Add(this.panel13);
             this.Controls.Add(this.panel12);
             this.Controls.Add(this.panel11);
             this.Controls.Add(this.label3);
@@ -820,8 +811,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel13.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
@@ -878,9 +867,6 @@
         private System.Windows.Forms.ToolStripMenuItem managePaymentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem closeToolStripMenuItem;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem9;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem10;
@@ -898,5 +884,6 @@
         private System.Windows.Forms.ToolStripMenuItem pharToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bigBasketToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eBayToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gMailToolStripMenuItem;
     }
 }

@@ -63,5 +63,10 @@ namespace Mini_Project
         {
            System.Diagnostics.Process.Start("https://www.google.co.in/maps/place/Super+Market/@15.593837,73.7471776,15z/data=!4m9!1m2!2m1!1ssupermarket!3m5!1s0x3bbfebcd7d2cc4e1:0xc614ede9daa8a066!8m2!3d15.5926839!4d73.7597323!15sCgtzdXBlcm1hcmtldFoaCgtzdXBlcm1hcmtldCILc3VwZXJtYXJrZXSSAQtzdXBlcm1hcmtldA?hl=en&authuser=0");
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
