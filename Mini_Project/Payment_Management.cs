@@ -131,5 +131,30 @@ namespace Mini_Project
         {
             textBox1.Text = val;
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "insert into Sales_Transections(Transection_Date, Seller_Type, Transection_Amount) values(GETDATE(), 'Customer', '"+ textBox1.Text +"')";
+                cmd.ExecuteNonQuery();
+                con.Close();
+                MessageBox.Show("Transection Added Successfully");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Transection_Management tm = new Transection_Management();
+            this.Hide();
+            tm.Show();
+        }
     }
 }
