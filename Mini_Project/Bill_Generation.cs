@@ -19,6 +19,7 @@ namespace Mini_Project
         }
 
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\joeld\OneDrive\Documents\Visual Studio 2015\Projects\Mini_Project\Supermarket_Management.mdf;Integrated Security=True;Connect Timeout=30");
+        public static string vall;
 
         public void display1()
         {
@@ -48,7 +49,7 @@ namespace Mini_Project
                 con.Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "select Product_Name, Product_Price, Quantity, Total_Price from Bill";
+                cmd.CommandText = "select ProductId, Product_Name, Product_Price, Quantity, Total_Price from Bill";
                 cmd.ExecuteNonQuery();
                 DataTable dt = new DataTable();
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -80,9 +81,16 @@ namespace Mini_Project
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Payment_Management pm = new Payment_Management();
-            this.Hide();
-            pm.Show();
+            if (textBox3.Text == "")
+            {
+                MessageBox.Show("Generate Bill First!");
+            }
+            else
+            {
+                Payment_Management pm = new Payment_Management();
+                this.Hide();
+                pm.Show();
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -136,6 +144,7 @@ namespace Mini_Project
                 label2.Visible = true;
                 label2.Text = "Total Amount: Rs ";
                 textBox3.Text = dt2.Rows[0][0].ToString();
+                vall = textBox3.Text;
                 con.Close();
             }
             catch (Exception ex)
@@ -159,10 +168,12 @@ namespace Mini_Project
                 dataGridView2.DataSource = dt;
                 foreach (DataRow row in dt.Rows)
                 {
+                    string pid = textBox1.Text.ToString();
                     string pname = row["Product_Name"].ToString();
                     string pprice = row["Product_Price"].ToString();
+                    string pqty = textBox2.Text.ToString();
                     int total = Convert.ToInt32(pprice) * Convert.ToInt32(textBox2.Text);
-                    cmd.CommandText = "insert into Bill values('" + textBox1.Text + "', '" + pname + "', '" + pprice + "', " + textBox2.Text + ", '"+ total +"')";
+                    cmd.CommandText = "insert into Bill values('" + pid + "', '" + pname + "', '" + pprice + "', " + pqty + ", '"+ total +"')";
                     cmd.ExecuteNonQuery();
                     con.Close();
                 }

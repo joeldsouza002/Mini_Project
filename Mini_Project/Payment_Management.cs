@@ -36,26 +36,15 @@ namespace Mini_Project
             }
         }
 
-        string val;
         private void Payment_Management_Load(object sender, EventArgs e)
         {
             try
             {
-                con.Open();
-                SqlCommand cmd = con.CreateCommand();
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "select sum(Total_Price) from Bill";
-                cmd.ExecuteNonQuery();
-                DataTable dt2 = new DataTable();
-                SqlDataAdapter da2 = new SqlDataAdapter(cmd);
-                da2.Fill(dt2);
+                textBox3.Text = Bill_Generation.vall;
                 label3.Visible = true;
                 label3.Text = "Initial Amount: Rs ";
                 label4.Visible = true;
                 label4.Text = "Total Amount: Rs ";
-                val = dt2.Rows[0][0].ToString();
-                textBox3.Text = val;
-                con.Close();
             }
             catch (Exception ex)
             {
@@ -84,7 +73,7 @@ namespace Mini_Project
                 textBox2.Enabled = false;
                 button1.Enabled = false;
                 label5.Enabled = false;
-                textBox1.Text = val;
+                textBox1.Text = textBox3.Text;
             }
         }
 
@@ -94,8 +83,8 @@ namespace Mini_Project
             {
                 try
                 {
-                    int cal = (Convert.ToInt32(val) * Convert.ToInt32(textBox2.Text))/100;
-                    cal = Convert.ToInt32(val) - cal;
+                    int cal = (Convert.ToInt32(textBox3.Text) * Convert.ToInt32(textBox2.Text))/100;
+                    cal = Convert.ToInt32(textBox3.Text) - cal;
                     textBox1.Text = cal.ToString();
                 }
                 catch (Exception ex)
@@ -129,7 +118,10 @@ namespace Mini_Project
 
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox1.Text = val;
+            textBox2.Enabled = false;
+            button1.Enabled = false;
+            label5.Enabled = false;
+            textBox1.Text = textBox3.Text;
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -155,6 +147,28 @@ namespace Mini_Project
             Transection_Management tm = new Transection_Management();
             this.Hide();
             tm.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Payment Successful\nDon't Forget to Record the Transection!");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            GPay gp = new GPay();
+            this.Hide();
+            gp.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Payment Successful\nDon't Forget to Record the Transection!");
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
