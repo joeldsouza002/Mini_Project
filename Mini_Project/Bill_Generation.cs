@@ -34,6 +34,11 @@ namespace Mini_Project
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
                 dataGridView1.DataSource = dt;
+                dataGridView1.Columns["Product_Id"].DisplayIndex = 0;
+                dataGridView1.Columns["Category_Id"].DisplayIndex = 1;
+                dataGridView1.Columns["Product_Name"].DisplayIndex = 2;
+                dataGridView1.Columns["Product_Price"].DisplayIndex = 3;
+                dataGridView1.Columns["Product_Quantity"].DisplayIndex = 4;
                 con.Close();
             }
             catch (Exception ex)
@@ -49,12 +54,17 @@ namespace Mini_Project
                 con.Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "select ProductId, Product_Name, Product_Price, Quantity, Total_Price from Bill";
+                cmd.CommandText = "select * from Bill";
                 cmd.ExecuteNonQuery();
                 DataTable dt = new DataTable();
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
                 dataGridView2.DataSource = dt;
+                dataGridView2.Columns["ProductId"].DisplayIndex = 0;
+                dataGridView2.Columns["Product_Name"].DisplayIndex = 1;
+                dataGridView2.Columns["Product_Price"].DisplayIndex = 2;
+                dataGridView2.Columns["Quantity"].DisplayIndex = 3;
+                dataGridView2.Columns["Total_Price"].DisplayIndex = 4;
                 con.Close();
             }
             catch (Exception ex)
@@ -179,7 +189,35 @@ namespace Mini_Project
                 }
                 con.Close();
                 display2();
-                MessageBox.Show("Item Added Successfully");
+                MessageBox.Show("Item Added Successfully\n\nInventory Updated Successfully");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                con.Close();
+            }
+
+            try
+            {
+                con.Open();
+                SqlCommand cmd1 = con.CreateCommand();
+                cmd1.CommandType = CommandType.Text;
+                cmd1.CommandText = "select Product_Quantity from Product where Product_Id = '" + textBox1.Text + "'";
+                cmd1.ExecuteNonQuery();
+                DataTable dt1 = new DataTable();
+                SqlDataAdapter da1 = new SqlDataAdapter(cmd1);
+                da1.Fill(dt1);
+                dataGridView1.DataSource = dt1;
+                foreach (DataRow row in dt1.Rows)
+                {
+                    string pqty = row["Product_Quantity"].ToString();
+                    int qty = Convert.ToInt32(pqty) - Convert.ToInt32(textBox2.Text);
+                    cmd1.CommandText = "update Product set Product_Quantity = '"+ qty +"' where Product_Id = '"+ textBox1.Text +"'";
+                    cmd1.ExecuteNonQuery();
+                    con.Close();
+                }
+                con.Close();
+                display1();
             }
             catch (Exception ex)
             {
