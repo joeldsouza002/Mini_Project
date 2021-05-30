@@ -38,6 +38,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " +ex.Message);
+                con.Close();
             }
         }
         
@@ -59,6 +60,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
@@ -91,6 +93,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
@@ -110,35 +113,52 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            con.Open();
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from Product_Category where Category_Id = '" + textBox1.Text + "'";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
-            dataGridView1.DataSource = dt;
-            con.Close();
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "select * from Product_Category where Category_Id = '" + textBox1.Text + "'";
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+                dataGridView1.DataSource = dt;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                con.Close();
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            con.Open();
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from Product where Product_Id = '" + textBox3.Text + "'";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
-            dataGridView2.DataSource = dt;
-            con.Close();
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "select * from Product where Product_Id = '" + textBox3.Text + "'";
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+                dataGridView2.DataSource = dt;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                con.Close();
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -157,6 +177,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
@@ -176,6 +197,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
@@ -195,6 +217,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 

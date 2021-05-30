@@ -68,6 +68,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Connection Error! " + ex.Message);
+                con.Close();
             }
         }
 

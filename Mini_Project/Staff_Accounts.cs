@@ -38,6 +38,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
@@ -57,6 +58,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
@@ -81,6 +83,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
@@ -115,6 +118,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
@@ -134,6 +138,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
@@ -153,6 +158,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
@@ -172,35 +178,52 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            con.Open();
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from Staff where User_Name = '" + textBox2.Text + "'";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
-            dataGridView1.DataSource = dt;
-            con.Close();
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "select * from Staff where User_Name = '" + textBox2.Text + "'";
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+                dataGridView1.DataSource = dt;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                con.Close();
+            }
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            con.Open();
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from Staff where User_Name='" + textBox5.Text + "'";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
-            dataGridView1.DataSource = dt;
-            con.Close();
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "select * from Staff where User_Name='" + textBox5.Text + "'";
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+                dataGridView1.DataSource = dt;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                con.Close();
+            }
         }
     }
 }

@@ -40,12 +40,14 @@ namespace Mini_Project
                 catch (Exception ex)
                 {
                     MessageBox.Show("Error: " + ex.Message);
+                    con.Close();
                 }
             }
             else
             {
                 MessageBox.Show("No Account Found With That User ID, Please Contact The Manager!");
             }
+            con.Close();
         }
 
         private void button9_Click(object sender, EventArgs e)

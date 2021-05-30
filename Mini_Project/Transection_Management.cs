@@ -45,28 +45,37 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
         public void display2()
         {
-            con.Open();
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from Sales_Transections";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
-            dataGridView2.DataSource = dt;
-            cmd.CommandText = "select sum(Transection_Amount) from Sales_Transections";
-            cmd.ExecuteNonQuery();
-            DataTable dt1 = new DataTable();
-            SqlDataAdapter da1 = new SqlDataAdapter(cmd);
-            da1.Fill(dt1);
-            label19.Visible = true;
-            label19.Text = "Total Sales Amount: = Rs " + dt1.Rows[0][0].ToString() + "/-";
-            con.Close();
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "select * from Sales_Transections";
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+                dataGridView2.DataSource = dt;
+                cmd.CommandText = "select sum(Transection_Amount) from Sales_Transections";
+                cmd.ExecuteNonQuery();
+                DataTable dt1 = new DataTable();
+                SqlDataAdapter da1 = new SqlDataAdapter(cmd);
+                da1.Fill(dt1);
+                label19.Visible = true;
+                label19.Text = "Total Sales Amount: = Rs " + dt1.Rows[0][0].ToString() + "/-";
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                con.Close();
+            }
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -84,7 +93,6 @@ namespace Mini_Project
                 pm.Show();
 
             }
-            
         }
 
         private void Transection_Management_Load(object sender, EventArgs e)
@@ -109,6 +117,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
@@ -121,16 +130,24 @@ namespace Mini_Project
 
         private void button3_Click(object sender, EventArgs e)
         {
-            con.Open();
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from Purchase_Transections where Transection_Id = '" + textBox1.Text + "' or Transection_Date = '" + textBox2.Text + "'";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
-            dataGridView1.DataSource = dt;
-            con.Close();
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "select * from Purchase_Transections where Transection_Id = '" + textBox1.Text + "' or Transection_Date = '" + textBox2.Text + "'";
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+                dataGridView1.DataSource = dt;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                con.Close();
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -149,21 +166,30 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            con.Open();
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from Sales_Transections where Transection_Id = '" + textBox5.Text + "' or Transection_Date = '" + textBox6.Text + "'";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
-            dataGridView2.DataSource = dt;
-            con.Close();
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "select * from Sales_Transections where Transection_Id = '" + textBox5.Text + "' or Transection_Date = '" + textBox6.Text + "'";
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+                dataGridView2.DataSource = dt;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+                con.Close();
+            }
         }
     }
 }

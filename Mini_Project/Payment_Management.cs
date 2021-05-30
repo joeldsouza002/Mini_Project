@@ -49,6 +49,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                con.Close();
             }
         }
 
@@ -90,6 +91,7 @@ namespace Mini_Project
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
+                    con.Close();
                 }
             }
         }
@@ -113,6 +115,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                con.Close();
             }
         }
 
@@ -139,6 +142,7 @@ namespace Mini_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                con.Close();
             }
         }
 
