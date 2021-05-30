@@ -298,7 +298,7 @@
             this.textBox_Result.Location = new System.Drawing.Point(29, 76);
             this.textBox_Result.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
             this.textBox_Result.Name = "textBox_Result";
-            this.textBox_Result.Size = new System.Drawing.Size(577, 49);
+            this.textBox_Result.Size = new System.Drawing.Size(577, 58);
             this.textBox_Result.TabIndex = 20;
             this.textBox_Result.Text = "0";
             this.textBox_Result.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -310,7 +310,7 @@
             this.label_Show_Op.Location = new System.Drawing.Point(29, 32);
             this.label_Show_Op.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label_Show_Op.Name = "label_Show_Op";
-            this.label_Show_Op.Size = new System.Drawing.Size(0, 18);
+            this.label_Show_Op.Size = new System.Drawing.Size(0, 22);
             this.label_Show_Op.TabIndex = 21;
             this.label_Show_Op.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -350,7 +350,7 @@
             // 
             // Calculator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 30F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 36F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
@@ -381,6 +381,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
             this.MaximizeBox = false;
             this.Name = "Calculator";

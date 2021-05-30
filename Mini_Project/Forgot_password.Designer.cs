@@ -77,9 +77,10 @@
             this.panel1.Controls.Add(this.panel7);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.Location = new System.Drawing.Point(385, 80);
+            this.panel1.Location = new System.Drawing.Point(433, 100);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(715, 530);
+            this.panel1.Size = new System.Drawing.Size(804, 662);
             this.panel1.TabIndex = 1;
             // 
             // panel11
@@ -88,18 +89,20 @@
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel11.Controls.Add(this.pictureBox3);
             this.panel11.Controls.Add(this.button9);
-            this.panel11.Location = new System.Drawing.Point(16, 467);
+            this.panel11.Location = new System.Drawing.Point(18, 584);
+            this.panel11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(228, 50);
+            this.panel11.Size = new System.Drawing.Size(256, 62);
             this.panel11.TabIndex = 36;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(3, 5);
+            this.pictureBox3.Location = new System.Drawing.Point(3, 6);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(36, 35);
+            this.pictureBox3.Size = new System.Drawing.Size(40, 44);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 34;
             this.pictureBox3.TabStop = false;
@@ -110,9 +113,10 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button9.Location = new System.Drawing.Point(45, 3);
+            this.button9.Location = new System.Drawing.Point(51, 4);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(176, 38);
+            this.button9.Size = new System.Drawing.Size(198, 48);
             this.button9.TabIndex = 33;
             this.button9.Text = "Back to Log in";
             this.button9.UseVisualStyleBackColor = false;
@@ -123,9 +127,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(244, 221);
+            this.label5.Location = new System.Drawing.Point(274, 276);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(218, 27);
+            this.label5.Size = new System.Drawing.Size(262, 31);
             this.label5.TabIndex = 19;
             this.label5.Text = "Enter New Password";
             // 
@@ -135,9 +139,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(280, 406);
+            this.button2.Location = new System.Drawing.Point(315, 508);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(155, 38);
+            this.button2.Size = new System.Drawing.Size(174, 48);
             this.button2.TabIndex = 17;
             this.button2.Text = "Clear Details";
             this.button2.UseVisualStyleBackColor = false;
@@ -148,9 +153,10 @@
             this.panel8.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel8.Controls.Add(this.pictureBox1);
             this.panel8.Controls.Add(this.textBox3);
-            this.panel8.Location = new System.Drawing.Point(196, 158);
+            this.panel8.Location = new System.Drawing.Point(220, 198);
+            this.panel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(318, 47);
+            this.panel8.Size = new System.Drawing.Size(358, 59);
             this.panel8.TabIndex = 14;
             // 
             // pictureBox1
@@ -158,9 +164,10 @@
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(267, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(301, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(51, 47);
+            this.pictureBox1.Size = new System.Drawing.Size(57, 59);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
@@ -171,10 +178,11 @@
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox3.Location = new System.Drawing.Point(0, 3);
+            this.textBox3.Location = new System.Drawing.Point(0, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(239, 41);
+            this.textBox3.Size = new System.Drawing.Size(269, 51);
             this.textBox3.TabIndex = 13;
             this.textBox3.Text = "User Id";
             // 
@@ -183,9 +191,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(96, 372);
+            this.label4.Location = new System.Drawing.Point(108, 465);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 19);
+            this.label4.Size = new System.Drawing.Size(0, 25);
             this.label4.TabIndex = 10;
             // 
             // button1
@@ -194,9 +202,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(196, 338);
+            this.button1.Location = new System.Drawing.Point(220, 422);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(318, 38);
+            this.button1.Size = new System.Drawing.Size(358, 48);
             this.button1.TabIndex = 0;
             this.button1.Text = "Change Password";
             this.button1.UseVisualStyleBackColor = false;
@@ -207,9 +216,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(275, 116);
+            this.label3.Location = new System.Drawing.Point(309, 145);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(145, 27);
+            this.label3.Size = new System.Drawing.Size(174, 31);
             this.label3.TabIndex = 7;
             this.label3.Text = "Enter User ID";
             // 
@@ -218,9 +227,10 @@
             this.panel7.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.panel7.Controls.Add(this.pictureBox2);
             this.panel7.Controls.Add(this.textBox2);
-            this.panel7.Location = new System.Drawing.Point(196, 263);
+            this.panel7.Location = new System.Drawing.Point(220, 329);
+            this.panel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(318, 47);
+            this.panel7.Size = new System.Drawing.Size(358, 59);
             this.panel7.TabIndex = 2;
             // 
             // pictureBox2
@@ -228,9 +238,10 @@
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(267, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(301, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 47);
+            this.pictureBox2.Size = new System.Drawing.Size(57, 59);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
@@ -241,10 +252,11 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox2.Location = new System.Drawing.Point(0, 3);
+            this.textBox2.Location = new System.Drawing.Point(0, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(239, 41);
+            this.textBox2.Size = new System.Drawing.Size(269, 51);
             this.textBox2.TabIndex = 13;
             this.textBox2.Text = "Password";
             // 
@@ -257,8 +269,9 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(713, 65);
+            this.panel2.Size = new System.Drawing.Size(802, 80);
             this.panel2.TabIndex = 0;
             // 
             // label1
@@ -267,9 +280,9 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(133, -3);
+            this.label1.Location = new System.Drawing.Point(150, -4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(457, 64);
+            this.label1.Size = new System.Drawing.Size(540, 76);
             this.label1.TabIndex = 5;
             this.label1.Text = "Change Password";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -278,9 +291,10 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Location = new System.Drawing.Point(671, 0);
+            this.panel5.Location = new System.Drawing.Point(755, 0);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(38, 61);
+            this.panel5.Size = new System.Drawing.Size(43, 76);
             this.panel5.TabIndex = 4;
             // 
             // panel3
@@ -289,8 +303,9 @@
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(38, 61);
+            this.panel3.Size = new System.Drawing.Size(43, 76);
             this.panel3.TabIndex = 2;
             // 
             // panel4
@@ -298,20 +313,23 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(38, 61);
+            this.panel4.Size = new System.Drawing.Size(43, 76);
             this.panel4.TabIndex = 3;
             // 
             // Forgot_password
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1484, 690);
+            this.ClientSize = new System.Drawing.Size(1670, 862);
             this.Controls.Add(this.panel1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "Forgot_password";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
