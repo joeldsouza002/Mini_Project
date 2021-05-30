@@ -642,11 +642,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="grocery-cart %281%29.ico" />
-    <Content Include="grocery-cart.ico" />
-    <Content Include="modern.ico" />
-    <Content Include="shopping-cart.ico" />
-    <Content Include="supermarket.ico" />
     <Content Include="supermarketicon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

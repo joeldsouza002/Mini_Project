@@ -59,8 +59,9 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1491, 339);
+            this.panel1.Size = new System.Drawing.Size(1677, 424);
             this.panel1.TabIndex = 0;
             // 
             // label3
@@ -70,9 +71,9 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(652, 301);
+            this.label3.Location = new System.Drawing.Point(746, 376);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 36);
+            this.label3.Size = new System.Drawing.Size(93, 43);
             this.label3.TabIndex = 17;
             this.label3.Text = "Date";
             // 
@@ -82,9 +83,9 @@
             this.label1.BackColor = System.Drawing.Color.Indigo;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(485, 301);
+            this.label1.Location = new System.Drawing.Point(546, 376);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 36);
+            this.label1.Size = new System.Drawing.Size(97, 43);
             this.label1.TabIndex = 16;
             this.label1.Text = "Time";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -93,8 +94,9 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1491, 339);
+            this.pictureBox1.Size = new System.Drawing.Size(1677, 424);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -113,9 +115,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(561, 403);
+            this.button1.Location = new System.Drawing.Point(631, 504);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(380, 192);
+            this.button1.Size = new System.Drawing.Size(428, 240);
             this.button1.TabIndex = 1;
             this.button1.Text = "Start System";
             this.button1.UseVisualStyleBackColor = false;
@@ -123,9 +126,10 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 630);
+            this.progressBar1.Location = new System.Drawing.Point(14, 788);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(1467, 13);
+            this.progressBar1.Size = new System.Drawing.Size(1650, 16);
             this.progressBar1.TabIndex = 4;
             this.progressBar1.Visible = false;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
@@ -145,9 +149,9 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.locateStoreToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 665);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 836);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1491, 35);
+            this.menuStrip1.Size = new System.Drawing.Size(1677, 39);
             this.menuStrip1.TabIndex = 19;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -159,29 +163,29 @@
             this.toolStripSeparator2});
             this.fileToolStripMenuItem.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(83, 31);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(97, 35);
             this.fileToolStripMenuItem.Text = "About";
             this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(63, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(69, 6);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(63, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(69, 6);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(63, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(69, 6);
             // 
             // locateStoreToolStripMenuItem
             // 
             this.locateStoreToolStripMenuItem.Name = "locateStoreToolStripMenuItem";
-            this.locateStoreToolStripMenuItem.Size = new System.Drawing.Size(143, 31);
+            this.locateStoreToolStripMenuItem.Size = new System.Drawing.Size(169, 35);
             this.locateStoreToolStripMenuItem.Text = "Locate Store";
             this.locateStoreToolStripMenuItem.Click += new System.EventHandler(this.locateStoreToolStripMenuItem_Click);
             // 
@@ -189,9 +193,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 403);
+            this.pictureBox2.Location = new System.Drawing.Point(14, 504);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(241, 240);
+            this.pictureBox2.Size = new System.Drawing.Size(271, 300);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 21;
             this.pictureBox2.TabStop = false;
@@ -200,20 +205,21 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1243, 403);
+            this.pictureBox3.Location = new System.Drawing.Point(1398, 504);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(236, 240);
+            this.pictureBox3.Size = new System.Drawing.Size(266, 300);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 22;
             this.pictureBox3.TabStop = false;
             // 
             // StartUp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1491, 700);
+            this.ClientSize = new System.Drawing.Size(1677, 875);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -221,6 +227,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "StartUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
